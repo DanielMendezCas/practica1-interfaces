@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Grano de Café</h4>
+                    <p class="parrafo__info">Existen principalmente dos tipos de granos de café ampliamente conocidos: Arabica (Coffea arabica) y Robusta (Coffea canephora). El café Arabica es apreciado por su sabor suave y complejo, con notas afrutadas y florales. Es cultivado en regiones de mayor altitud y temperaturas más frescas, lo que contribuye a su perfil de sabor distintivo. Por otro lado, el café Robusta es conocido por su sabor más fuerte y amargo, con un contenido de cafeína considerablemente más alto. Se cultiva en climas más cálidos y a menor altitud, lo que le confiere una resistencia superior a enfermedades. 
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosas Recetas de Café</h4>
+                    <p class="widget-receta__label">1. Café Cortado de Vainilla</p>
+                    <p>Ingredientes:</p>
+                    <ul>
+                        <li>
+                            1 taza de espresso recién preparado
+                        </li>
+                        <li>
+                            1 cucharadita de extracto de vainilla
+                        </li>
+                        <li>
+                            2 cucharaditas de leche caliente
+                        </li>
+                        <li>
+                            Azúcar al gusto
+                        </li>
+                    </ul>
+                    <p>Instrucciones:</p>
+                    <ol>
+                        <li>
+                            Prepara un espresso y agrégale el extracto de vainilla.
+                        </li>
+                        <li>
+                            Calienta la leche y agrégala al espresso.
+                        </li>
+                        <li>
+                            Endulza con azúcar al gusto.
+                        </li>
+                        <li>
+                            Revuelve bien y disfruta de tu delicioso café cortado de vainilla.
+                        </li>
+                    </ol>
+                    <p class="widget-receta__label">2. Mocha Frappé</p>
+                    <p>Ingredientes:</p>
+                    <ul>
+                        <li>
+                            1 taza de café fuerte, enfriado
+                        </li>
+                        <li>
+                            1/2 taza de leche
+                        </li>
+                        <li>
+                            2 cucharadas de jarabe de chocolate
+                        </li>
+                        <li>
+                            2 cucharadas de azúcar
+                        </li>
+                        <li>
+                            Hielo
+                        </li>
+                        <li>
+                            Crema batida (opcional)
+                        </li>
+                    </ul>
+                    <p>Instrucciones:</p>
+                    <ol>
+                        <li>
+                            Coloca el café enfriado en una licuadora.
+                        </li>
+                        <li>
+                            Agrega la leche, el jarabe de chocolate, el azúcar y el hielo.
+                        </li>
+                        <li>
+                            Mezcla hasta obtener una consistencia suave.
+                        </li>
+                        <li>
+                            Sirve en un vaso y decora con crema batida si lo deseas.
+                        </li>
+                    </ol>
+                    <p class="widget-receta__label">3. Café con Especias</p>
+                    <p>Ingredientes:</p>
+                    <ul>
+                        <li>
+                            1 taza de café negro
+                        </li>
+                        <li>
+                            1/4 cucharadita de canela
+                        </li>
+                        <li>
+                            1/8 cucharadita de nuez moscada
+                        </li>
+                        <li>
+                            1/8 cucharadita de cardamomo
+                        </li>
+                        <li>
+                            Azúcar al gusto
+                        </li>
+                        <li>
+                            Leche (opcional)
+                        </li>
+                    </ul>
+                    <p>Instrucciones:</p>
+                    <ol>
+                        <li>
+                            Prepara una taza de café negro.
+                        </li>
+                        <li>
+                            Agrega las especias: canela, nuez moscada y cardamomo.
+                        </li>
+                        <li>
+                            Endulza con azúcar al gusto.
+                        </li>
+                        <li>
+                            Si prefieres, puedes agregar un toque de leche.
+                        </li>
+                        <li>
+                            Revuelve bien y disfruta de un café aromático con especias.
+                        </li> 
+                    </ol>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>El café, consumido con moderación, ofrece una serie de beneficios para la salud. Sus propiedades antioxidantes pueden ayudar a combatir el estrés oxidativo en el cuerpo, contribuyendo así a la prevención de enfermedades crónicas. Además, la cafeína presente en el café puede mejorar la concentración, el estado de alerta y la función cognitiva. Estudios sugieren que el café también puede estar asociado con la reducción del riesgo de ciertos problemas de salud, como la enfermedad de Parkinson y algunos tipos de cáncer.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Talleres</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="cursos.html" class="boton boton--secundario">Más Información sobre nuestros cursos</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="cursos.html" class="boton boton--secundario">Más Información sobre nuestros cursos</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
